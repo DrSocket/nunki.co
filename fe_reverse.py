@@ -57,20 +57,17 @@ def main():
 		base += f"limit={limit};"
 	base += f"period={date};"
 	base += f"language={language};"
-	print (base)
 	response = requests.get(base)
 	if response.ok and response is not None:
 		try:
 			driver = get_selenium()
 			driver.get(base)
-			print (f"Title: {driver.title}")
+			print (f"Title: {driver.title}\n")
 			elements = driver.find_elements(By.TAG_NAME, "li")
 			for i, e in enumerate(elements):
 				print (f"*********Article {i + 1}*********")
 				print (e.text)
 				print ("\n\n")
-				if i > 10:
-					break
 			driver.quit()
 		except Exception as e:
 			print(e)
