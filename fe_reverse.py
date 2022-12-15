@@ -14,7 +14,8 @@ from selenium.webdriver.common.by import By
 
 def get_selenium():
 	fireFoxOptions = Options()
-	# fireFoxOptions.add_argument("--headless")
+	fireFoxOptions.add_argument("--headless")
+	fireFoxOptions.binary = "./geckodriver"
 	# fireFoxOptions.set_headless()
 	driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()), options=fireFoxOptions)
 	return (driver)

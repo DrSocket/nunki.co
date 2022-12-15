@@ -359,3 +359,7 @@ Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
 console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
 JavaScript error: resource://gre/modules/ClientID.jsm, line 364: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.setStringPref]
+1671126742574	geckodriver	INFO	Listening on 127.0.0.1:59896
+1671126769740	geckodriver	INFO	Listening on 127.0.0.1:60032
+1671126839777	geckodriver	INFO	Listening on 127.0.0.1:60350
+1671126856183	geckodriver	INFO	Listening on 127.0.0.1:60436
