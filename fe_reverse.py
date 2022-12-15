@@ -20,10 +20,10 @@ def get_selenium():
 	options.add_argument("--headless")
 	options.add_argument("--blink-settings=imagesEnabled=false")
 	
-	# Firefox driver uncomment
+	# Firefox driver comment/uncomment
 	# driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()), options=options)
 
-	# Chrome driver uncomment
+	# Chrome driver comment/uncomment
 	driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
 	return (driver)
