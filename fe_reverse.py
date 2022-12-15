@@ -2,18 +2,30 @@ from urllib import response
 import requests
 import sys
 from selenium import webdriver
-from selenium.webdriver.firefox.service import Service
-from selenium.webdriver.firefox.options import Options
-from webdriver_manager.firefox import GeckoDriverManager
 from selenium.webdriver.common.by import By
+
+# with Firefox() as driver comment/uncomment
+# from selenium.webdriver.firefox.service import Service
+# from selenium.webdriver.firefox.options import Options
+# from webdriver_manager.firefox import GeckoDriverManager
+
+# with Chrome() as driver comment/uncomment
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
+from webdriver_manager.chrome import ChromeDriverManager
 
 def get_selenium():
 	options = Options()
 	# options.page_load_strategy = 'normal'
-	# options.host = "::1"
-	# options.add_argument("--headless")
-	# options.set_headless()
-	driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()), options=options)
+	options.add_argument("--headless")
+	options.add_argument("--blink-settings=imagesEnabled=false")
+	
+	# Firefox driver uncomment
+	# driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()), options=options)
+
+	# Chrome driver uncomment
+	driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+
 	return (driver)
 
 def main():
@@ -51,8 +63,6 @@ def main():
 		try:
 			driver = get_selenium()
 			driver.get(base)
-			# wait = driver.implicitly_wait(3)
-			# tb = wait.Until(driver.find_elements(By.TAG_NAME, "ul"))
 			print (f"Title: {driver.title}")
 			elements = driver.find_elements(By.TAG_NAME, "li")
 			for i, e in enumerate(elements):

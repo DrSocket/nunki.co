@@ -132,4 +132,9 @@ CookieAuthentication 1
 
 ### Second test
 
-Everything should work if you have Firefox installed in your setup.
+Everything should work if you have Firefox or Chrome installed in your setup. 
+It is necessary to comment/uncomment the correct browser in the upper section in the script.
+
+run code with
+
+```python3 fe_reverse.py <keywords (If more than 1 please add quotes)> optional: <period: (default: 365)> <language (default: English) <limit>```
