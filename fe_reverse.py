@@ -1,6 +1,5 @@
 from urllib import response
 import requests
-import scrapy
 from bs4 import BeautifulSoup
 import sys
 from selenium import webdriver
@@ -8,11 +7,16 @@ import csv
 import os
 from selenium.webdriver.common.keys import Keys
 import time
+from selenium.webdriver.firefox.service import Service
+from selenium.webdriver.firefox.options import Options
+from webdriver_manager.firefox import GeckoDriverManager
+from selenium.webdriver.common.by import By
 
 def get_selenium():
-	options = webdriver.ChromeOptions()
-	# options.add_argument('--headless')
-	driver = webdriver.Chrome(options=options)
+	fireFoxOptions = Options()
+	# fireFoxOptions.add_argument("--headless")
+	# fireFoxOptions.set_headless()
+	driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()), options=fireFoxOptions)
 	return (driver)
 
 def main():
@@ -44,36 +48,20 @@ def main():
 	print (base)
 	response = requests.get(base)
 	if response.ok and response is not None:
-		driver = get_selenium()
-		driver.get(base)
-		print ("coucou")
-		# w.until(EC.presence_of_element_located((By.CLASS_NAME, 'mdl-list')))
-		# driver.execute_script("window.stop();")
-		# print (driver.title)
-		driver.quit()
-		# options = Options()
-		# options.add_argument("--headless")
-		# options.headless = True
-		# options.add_argument("start-maximized")
-		# yield scrapy.Request(url=base, callback=parse)
-		# driver.get("https://www.google.com")
-		# chromeOptions = Options()
-		# chromeOptions.headless = True
-		# browser = webdriver.Chrome(executable_path="./driver/chromedriver", options=chromeOptions)
-		# driver.get(base)
-		# print("Title: %s" % driver.title)
-		# driver.quit()
-	# 	try:
-	# 		html = BeautifulSoup(response.text, "html.parser")
-	# 		# print(html.select(".mdl-list").text)
-	# 		print (html.find_all('div', {'id': 'angular-content'}))
-	# 		# for para in html.find_all("li", {"class": "mdl-list__item"}):
-	# 			# print(para.text)
-	# 	except Exception as e:
-	# 		print(e)
-	# else:
-	# 	print("Error: ", response.status_code)
-	# print(response.text)
+		try:
+			driver = get_selenium()
+			driver.get(base)
+			print (driver.title)
+			elements = driver.find_elements(By.TAG_NAME, "li")
+			for i, e in enumerate(elements):
+				print (f"*********Article {i + 1}*********")
+				print (e.text)
+				print ("\n\n")
+			driver.quit()
+		except Exception as e:
+			print(e)
+	else:
+		print("Error: ", response.status_code)
 
 if __name__ == "__main__":
 	if (len(sys.argv) > 1):
