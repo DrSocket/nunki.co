@@ -23,6 +23,7 @@ A public/private key system is used to encrypt and decrypt data, it is used in S
 ### Cyber-Sec 
 
 > 1.Describe the mechanisms you would put in place (processes, tools, etc.): to check for vulnerabilities in Operating System, virtualization systems, middleware and the network layers both internally and externally.
+(I used Google to find some tools, I'd dig in more if I had to use them in a real scenario)
 
 To check for vulnerabilities in the operating system, I would use tools such as the open-source vulnerability scanner OpenVAS. 
 This tool can be configured to perform regular scans of our systems and provide reports on any vulnerabilities it identifies. I would also use tools such as Tripwire to monitor changes to the operating system and alert us to any unauthorized changes.
@@ -106,16 +107,19 @@ With linux installation it is most likely at ./etc/tor/torrc
 
 We have three things to do
 
-1.Enable the “ControlPort” listener for TOR to listen on port 9051, as this is the port to which TOR will listen for any communication from applications talking to the Tor controller.
-2.Update the hashed password
-3.Implement cookie authentication
+1. Enable the “ControlPort” listener for TOR to listen on port 9051, as this is the port to which TOR will listen for any communication from applications talking to the Tor controller.
+2. Update the hashed password
+3. Implement cookie authentication
 
 You can achieve this by uncommenting and editing the following lines just above the section for location hidden services.
 
 SOCKSPort 9050
+
 HashedControlPassword <your hashed passsword obtained earlier here>
+
 CookieAuthentication 1
-### This section is just for location-hidden services ###
+
+\#\#\# This section is just for location-hidden services \#\#\#
 
 
 Chrome drivers for selenium 
