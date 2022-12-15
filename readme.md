@@ -23,6 +23,7 @@ A public/private key system is used to encrypt and decrypt data, it is used in S
 ### Cyber-Sec 
 
 > 1.Describe the mechanisms you would put in place (processes, tools, etc.): to check for vulnerabilities in Operating System, virtualization systems, middleware and the network layers both internally and externally.
+
 (I used Google to find some tools, I'd dig in more if I had to use them in a real scenario)
 
 To check for vulnerabilities in the operating system, I would use tools such as the open-source vulnerability scanner OpenVAS. 
@@ -34,11 +35,11 @@ To check for vulnerabilities in the middleware and network layers, I would use a
 
 > 2.How would you check for vulnerabilities at the application level?
 
-To check for vulnerabilities at the application level, I would use tools such as Acunetix to perform regular scans of our web applications. This tool can identify vulnerabilities such as SQL injection and cross-site scripting, as well as provide recommendations for remediation.
+I would use tools such as Acunetix to perform regular scans of our web applications. This tool can identify vulnerabilities such as SQL injection and cross-site scripting, as well as provide recommendations for remediation.
 
 > 3.What security policies would you put in place to protect personal workstations (mac, pc’s)
 
-To protect personal workstations, I would put in place security policies such as requiring strong passwords, enabling two-factor authentication, and regularly patching and updating the operating system and other software. I would also provide training to employees on security best practices and encourage them to report any suspicious activity.
+I would put security policies such as requiring strong passwords, enabling two-factor authentication, and regularly patching and updating the operating system and other software. I would also provide training to employees on security best practices and encourage them to report any suspicious activity.
 
 ---
 ### Hacking
@@ -52,7 +53,7 @@ I'd use tools such as Burp Suite to perform a security assessment of the app and
 
 If the web app is password-protected, I would then try to obtain the password by using a phishing attack. This involves creating a fake login page that looks virtualy identical to the real app, and then sending an email to the company's employees that directs them to the fake page. If an employee falls for the trick and enters their username and password, I would be able to capture that information and use it to log in to the real app.
 
-If all else fails, I could try to gain access to the app by exploiting any vulnerabilities in the underlying operating system or server. This could involve using tools such as Metasploit to find and exploit known vulnerabilities in the server's software and checking known vulnerability databases against any technology they are using.
+Another possibility would be to try to gain access to the app by exploiting any vulnerabilities in the underlying operating system or server. This could involve using tools such as Metasploit to find and exploit known vulnerabilities in the server's software and checking known vulnerability databases against any technology they are using.
 
 ---
 ### Bonus Questions
@@ -62,9 +63,9 @@ If all else fails, I could try to gain access to the app by exploiting any vulne
 
 In Kubernetes, a replica set is a type of controller that ensures a specified number of replicas of a pod are running at any given time. This is useful for ensuring that a certain number of copies of a pod are always available to handle incoming requests.
 
-A daemon set, on the other hand, is a type of controller that ensures a copy of a specific pod is running on every node in the cluster. This is useful for running background tasks or services that need to be available on every node.
+A daemon set, is a type of controller that ensures a copy of a specific pod is running on every node in the cluster. This is useful for running background tasks or services that need to be available on every node.
 
-A pod, on the other hand, is the basic unit of deployment in Kubernetes. It is a group of one or more containers that are deployed together on the same host. Pods are the smallest deployable units in Kubernetes and are used to host applications.
+A pod, is the basic unit of deployment in Kubernetes. It is a group of one or more containers that are deployed together on the same host. Pods are the smallest deployable units in Kubernetes and are used to host applications.
 
 In summary, a replica set is used to ensure a certain number of copies of a pod are running, a daemon set is used to ensure a copy of a pod is running on every node in the cluster, and a pod is the basic unit of deployment in Kubernetes.
 
@@ -86,7 +87,6 @@ I would also do some reading on tools such as Weave Net. This tool apparently pr
 Run in terminal to create a python virtual env and install the modules used.
 
 ```source script.sh```
-
 
 ### Ex 1
 
