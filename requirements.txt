@@ -1,0 +1,6 @@
+requests
+torrequest
+Scrapy
+beautifulsoup4
+requests-html
+webdriver-manager
