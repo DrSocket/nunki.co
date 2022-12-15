@@ -129,13 +129,18 @@ CookieAuthentication 1
 
 \#\#\# This section is just for location-hidden services \#\#\#
 
+run code with
+
+```python3 animosity.py```
+
+It will change Ip address between each request. This can be seen in the terminal output and could be modified to each n requests.
 
 ### Second test
 
 Everything should work if you have Firefox or Chrome installed in your setup. 
 It is necessary to comment/uncomment the correct browser in the upper section in the script.
 In line 72 I put a limit to the number of different articles to be printed.
-In a real world scenario I would probably use a database to store the articles just print the output to the terminal.
+In a real world scenario I would probably use a database to store the articles not just print the output to the terminal.
 
 run code with
 
