@@ -1,12 +1,7 @@
 from urllib import response
 import requests
-from bs4 import BeautifulSoup
 import sys
 from selenium import webdriver
-import csv
-import os
-from selenium.webdriver.common.keys import Keys
-import time
 from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.firefox.options import Options
 from webdriver_manager.firefox import GeckoDriverManager
