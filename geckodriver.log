@@ -53,6 +53,7 @@ Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
 console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
 JavaScript error: resource://gre/modules/ClientID.jsm, line 364: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.setStringPref]
+<<<<<<< HEAD
 1671129403772	geckodriver	INFO	Listening on 127.0.0.1:48227
 1671129404312	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39377" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileGlzqAe"
 1671129405048	Marionette	INFO	Marionette enabled
@@ -253,3 +254,9 @@ Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
 console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
 1671131536998	Marionette	INFO	Stopped listening on port 39785
 JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofileT2dTLS/protections.sqlite
+=======
+1671126742574	geckodriver	INFO	Listening on 127.0.0.1:59896
+1671126769740	geckodriver	INFO	Listening on 127.0.0.1:60032
+1671126839777	geckodriver	INFO	Listening on 127.0.0.1:60350
+1671126856183	geckodriver	INFO	Listening on 127.0.0.1:60436
+>>>>>>> 9d1a00bfaa2838b517aef63c747a7a60ac3548e1
