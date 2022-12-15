@@ -3,7 +3,7 @@ from torrequest import TorRequest
 
 def requestTor(port):
 	payload = {
-		"token": "zc9M7jMyI0VbCK1XdHVLsg",
+		"token": "3bVHhe0Mx_QkDrflUHFPgA",
 		"data": {
 		"name": "nameFirst",
 		"email": "internetEmail",

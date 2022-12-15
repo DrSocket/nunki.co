@@ -1,385 +1,255 @@
-geckodriver: error: Found argument '--websocket-port' which wasn't expected, or isn't valid in this context
-
-USAGE:
-    geckodriver --port <PORT>
-
-For more information try --help
-
-geckodriver: error: Found argument '--websocket-port' which wasn't expected, or isn't valid in this context
-
-USAGE:
-    geckodriver --port <PORT>
-
-For more information try --help
-
-1671124411363	geckodriver	INFO	Listening on 127.0.0.1:34307
-1671124411909	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36445" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilepkAlpT"
-1671124412994	Marionette	INFO	Marionette enabled
-1671124413001	Marionette	INFO	Listening on port 34175
-WebDriver BiDi listening on ws://localhost:36445
-Read port: 34175
+1671128794808	geckodriver	INFO	Listening on 127.0.0.1:55217
+1671128795366	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "40247" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilej8aneI"
+1671128796144	Marionette	INFO	Marionette enabled
+1671128796149	Marionette	INFO	Listening on port 41631
+WebDriver BiDi listening on ws://localhost:40247
+Read port: 41631
 JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 691: Error: File resource://builtin-themes/resource://builtin-themes/dark/ does not contain a valid manifest
-1671124413263	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilepkAlpT/search.json.mozlz4", (void 0)))
+1671128796346	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilej8aneI/search.json.mozlz4", (void 0)))
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
-DevTools listening on ws://localhost:36445/devtools/browser/bdb4618e-8b60-4c87-a185-1bcc3ac1d3d3
-1671124430438	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
-1671124433564	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
-Exiting due to channel error.
-Exiting due to channel error.
-Exiting due to channel error.
-1671124515065	geckodriver	INFO	Listening on 127.0.0.1:59543
-1671124515609	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39111" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilePDeUqu"
-1671124516399	Marionette	INFO	Marionette enabled
-1671124516405	Marionette	INFO	Listening on port 35737
-WebDriver BiDi listening on ws://localhost:39111
-Read port: 35737
-JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 691: Error: File resource://builtin-themes/resource://builtin-themes/dark/ does not contain a valid manifest
-1671124516648	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePDeUqu/search.json.mozlz4", (void 0)))
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
-DevTools listening on ws://localhost:39111/devtools/browser/33fcd1b9-be49-4b17-84e6-2c25781e5392
-1671124529047	Marionette	INFO	Stopped listening on port 35737
+DevTools listening on ws://localhost:40247/devtools/browser/dfd58a86-ee86-44a5-8f8a-648f8638685a
+1671128822056	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1671128824719	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1671129009538	Marionette	INFO	Stopped listening on port 41631
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
 console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
-JavaScript error: resource://gre/modules/ClientID.jsm, line 364: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.setStringPref]
-1671124552619	geckodriver	INFO	Listening on 127.0.0.1:50427
-1671124552661	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41521" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile0XB6xj"
-1671124553419	Marionette	INFO	Marionette enabled
-1671124553424	Marionette	INFO	Listening on port 43815
-WebDriver BiDi listening on ws://localhost:41521
-Read port: 43815
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofilej8aneI/protections.sqlite
+1671129034203	geckodriver	INFO	Listening on 127.0.0.1:51687
+1671129034754	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44993" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileAD3ukb"
+1671129035453	Marionette	INFO	Marionette enabled
+1671129035458	Marionette	INFO	Listening on port 37943
+WebDriver BiDi listening on ws://localhost:44993
+Read port: 37943
 JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 691: Error: File resource://builtin-themes/resource://builtin-themes/dark/ does not contain a valid manifest
-1671124553655	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0XB6xj/search.json.mozlz4", (void 0)))
+1671129035651	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileAD3ukb/search.json.mozlz4", (void 0)))
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
-DevTools listening on ws://localhost:41521/devtools/browser/bb9e7182-1eb5-448d-9d14-946cbc3a05d5
-1671124560293	Marionette	INFO	Stopped listening on port 43815
+DevTools listening on ws://localhost:44993/devtools/browser/41568d51-eb2d-493a-97b8-efb2b5bee23e
+1671129062282	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1671129133313	Marionette	INFO	Stopped listening on port 37943
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
 console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
-JavaScript error: resource://gre/modules/ClientID.jsm, line 364: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.setStringPref]
-1671124628651	geckodriver	INFO	Listening on 127.0.0.1:45271
-1671124628689	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "53445" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilecU62Gj"
-1671124629496	Marionette	INFO	Marionette enabled
-1671124629502	Marionette	INFO	Listening on port 46631
-WebDriver BiDi listening on ws://localhost:53445
-Read port: 46631
-JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 691: Error: File resource://builtin-themes/resource://builtin-themes/dark/ does not contain a valid manifest
-1671124629753	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilecU62Gj/search.json.mozlz4", (void 0)))
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
-DevTools listening on ws://localhost:53445/devtools/browser/e929d390-259d-4ad6-89f3-c090f19d7912
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
-console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
-1671124675426	Marionette	INFO	Stopped listening on port 46631
-1671124739046	geckodriver	INFO	Listening on 127.0.0.1:58935
-1671124739592	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "49391" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileF556OK"
-1671124740331	Marionette	INFO	Marionette enabled
-1671124740336	Marionette	INFO	Listening on port 46213
-WebDriver BiDi listening on ws://localhost:49391
-Read port: 46213
-JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 691: Error: File resource://builtin-themes/resource://builtin-themes/dark/ does not contain a valid manifest
-1671124740535	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileF556OK/search.json.mozlz4", (void 0)))
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
-DevTools listening on ws://localhost:49391/devtools/browser/82d0e97a-fe18-4069-b0d6-6e6dbe1ccf85
-1671124857169	geckodriver	INFO	Listening on 127.0.0.1:53169
-1671124857211	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51119" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilep8H38Y"
-1671124858123	Marionette	INFO	Marionette enabled
-1671124858128	Marionette	INFO	Listening on port 43257
-WebDriver BiDi listening on ws://localhost:51119
-Read port: 43257
-JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 691: Error: File resource://builtin-themes/resource://builtin-themes/dark/ does not contain a valid manifest
-1671124858349	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilep8H38Y/search.json.mozlz4", (void 0)))
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
-DevTools listening on ws://localhost:51119/devtools/browser/380d50cb-6257-4d7e-9b51-66fd6efd09c2
-1671124874078	Marionette	INFO	Stopped listening on port 43257
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
-console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
-JavaScript error: resource://gre/modules/ClientID.jsm, line 364: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.setStringPref]
-1671124918950	geckodriver	INFO	Listening on 127.0.0.1:36941
-1671124919487	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "32957" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileWyw7kF"
-1671124920310	Marionette	INFO	Marionette enabled
-1671124920318	Marionette	INFO	Listening on port 33941
-WebDriver BiDi listening on ws://localhost:32957
-Read port: 33941
-JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 691: Error: File resource://builtin-themes/resource://builtin-themes/dark/ does not contain a valid manifest
-1671124920537	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWyw7kF/search.json.mozlz4", (void 0)))
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
-DevTools listening on ws://localhost:32957/devtools/browser/b9d53c68-33b4-47cd-ab1c-3d4f48beebb5
-1671124939559	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
-1671124943167	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
-1671124945254	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
-console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
-1671124978232	Marionette	INFO	Stopped listening on port 46213
-Marionette threw an error: TypeError: this.curBrowser.contentBrowser is null
-GeckoDriver.prototype.navigateTo@chrome://remote/content/marionette/driver.js:825:3
-
-1671125032524	geckodriver	INFO	Listening on 127.0.0.1:50147
-1671125032573	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57575" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileKYthHK"
-1671125033384	Marionette	INFO	Marionette enabled
-1671125033389	Marionette	INFO	Listening on port 42779
-WebDriver BiDi listening on ws://localhost:57575
-Read port: 42779
-JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 691: Error: File resource://builtin-themes/resource://builtin-themes/dark/ does not contain a valid manifest
-1671125033619	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileKYthHK/search.json.mozlz4", (void 0)))
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
-DevTools listening on ws://localhost:57575/devtools/browser/06e365c9-0822-4e3b-b7c8-1a4eac4a2272
-1671125048668	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
-1671125125582	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
-console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
-1671125135759	Marionette	INFO	Stopped listening on port 42779
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
-console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
-1671125139424	Marionette	INFO	Stopped listening on port 33941
-1671125160337	geckodriver	INFO	Listening on 127.0.0.1:39359
-1671125160889	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "52835" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilewsNuSu"
-1671125161655	Marionette	INFO	Marionette enabled
-1671125161661	Marionette	INFO	Listening on port 33621
-WebDriver BiDi listening on ws://localhost:52835
-Read port: 33621
-JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 691: Error: File resource://builtin-themes/resource://builtin-themes/dark/ does not contain a valid manifest
-1671125161868	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilewsNuSu/search.json.mozlz4", (void 0)))
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
-DevTools listening on ws://localhost:52835/devtools/browser/d10f0817-1a02-4c96-8400-eff6b8302610
-JavaScript error: https://boardreader.com/s/dada.html;period=365;language=English line 5 > injectedScript, line 9: TypeError: a is null
-1671125170428	Marionette	INFO	Stopped listening on port 33621
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
-console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
-JavaScript error: resource://gre/modules/ClientID.jsm, line 364: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.setStringPref]
-1671125198208	geckodriver	INFO	Listening on 127.0.0.1:47911
-1671125198749	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58665" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilefrNzsi"
-1671125199478	Marionette	INFO	Marionette enabled
-1671125199483	Marionette	INFO	Listening on port 37929
-WebDriver BiDi listening on ws://localhost:58665
-Read port: 37929
-JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 691: Error: File resource://builtin-themes/resource://builtin-themes/dark/ does not contain a valid manifest
-1671125199681	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefrNzsi/search.json.mozlz4", (void 0)))
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
-DevTools listening on ws://localhost:58665/devtools/browser/6ce41014-7ba8-47bf-8947-a8c3e7cd4c38
-1671125214402	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
-console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
-1671125243989	Marionette	INFO	Stopped listening on port 37929
-1671125261266	geckodriver	INFO	Listening on 127.0.0.1:52407
-1671125261301	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46307" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilex1IW06"
-1671125262053	Marionette	INFO	Marionette enabled
-1671125262057	Marionette	INFO	Listening on port 36619
-WebDriver BiDi listening on ws://localhost:46307
-Read port: 36619
-JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 691: Error: File resource://builtin-themes/resource://builtin-themes/dark/ does not contain a valid manifest
-1671125262298	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilex1IW06/search.json.mozlz4", (void 0)))
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
-DevTools listening on ws://localhost:46307/devtools/browser/80b2fdf3-7ca2-4fac-8a17-c552b0012aa1
-1671125270971	Marionette	INFO	Stopped listening on port 36619
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
-console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
-JavaScript error: resource://gre/modules/ClientID.jsm, line 364: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.setStringPref]
-1671125324710	geckodriver	INFO	Listening on 127.0.0.1:49167
-1671125325256	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "53449" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile4o5ISN"
-1671125326049	Marionette	INFO	Marionette enabled
-1671125326054	Marionette	INFO	Listening on port 45365
-WebDriver BiDi listening on ws://localhost:53449
-Read port: 45365
-JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 691: Error: File resource://builtin-themes/resource://builtin-themes/dark/ does not contain a valid manifest
-1671125326256	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile4o5ISN/search.json.mozlz4", (void 0)))
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
-DevTools listening on ws://localhost:53449/devtools/browser/d3502ca7-0653-45cf-87a2-e4c8bdbb1507
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
-console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
-1671125427869	Marionette	INFO	Stopped listening on port 45365
-1671125437543	geckodriver	INFO	Listening on 127.0.0.1:56397
-1671125438088	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38427" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileX4ukyK"
-1671125438898	Marionette	INFO	Marionette enabled
-1671125438905	Marionette	INFO	Listening on port 39425
-WebDriver BiDi listening on ws://localhost:38427
-Read port: 39425
-JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 691: Error: File resource://builtin-themes/resource://builtin-themes/dark/ does not contain a valid manifest
-1671125439117	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileX4ukyK/search.json.mozlz4", (void 0)))
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
-DevTools listening on ws://localhost:38427/devtools/browser/a22683a0-98fc-42a2-a5ec-d0785daca055
-1671125489177	geckodriver	INFO	Listening on 127.0.0.1:53387
-1671125489727	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "48699" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileEfpH8L"
-1671125490620	Marionette	INFO	Marionette enabled
-1671125490627	Marionette	INFO	Listening on port 34895
-WebDriver BiDi listening on ws://localhost:48699
-Read port: 34895
-JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 691: Error: File resource://builtin-themes/resource://builtin-themes/dark/ does not contain a valid manifest
-1671125490880	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEfpH8L/search.json.mozlz4", (void 0)))
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
-DevTools listening on ws://localhost:48699/devtools/browser/6e629ba3-60a8-4ecb-aca8-42e492f2a305
-1671125525558	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
-1671125539285	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
-console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
-1671125563948	Marionette	INFO	Stopped listening on port 34895
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
-console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
-1671125566868	Marionette	INFO	Stopped listening on port 39425
-1671125576215	geckodriver	INFO	Listening on 127.0.0.1:34329
-1671125576262	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33675" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilehU63FD"
-1671125577044	Marionette	INFO	Marionette enabled
-1671125577051	Marionette	INFO	Listening on port 37881
-WebDriver BiDi listening on ws://localhost:33675
-Read port: 37881
-JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 691: Error: File resource://builtin-themes/resource://builtin-themes/dark/ does not contain a valid manifest
-1671125577259	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehU63FD/search.json.mozlz4", (void 0)))
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
-DevTools listening on ws://localhost:33675/devtools/browser/7d097e86-f9d5-4590-b633-98a6f44ed673
-1671125615574	geckodriver	INFO	Listening on 127.0.0.1:36923
-1671125616145	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "43735" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileBLaZF2"
-1671125617357	Marionette	INFO	Marionette enabled
-1671125617374	Marionette	INFO	Listening on port 40581
-WebDriver BiDi listening on ws://localhost:43735
-Read port: 40581
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
-console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
-1671125617629	Marionette	INFO	Stopped listening on port 37881
-JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 691: Error: File resource://builtin-themes/resource://builtin-themes/dark/ does not contain a valid manifest
-1671125617944	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBLaZF2/search.json.mozlz4", (void 0)))
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
-DevTools listening on ws://localhost:43735/devtools/browser/e80c700a-db74-4981-a114-a3cd0f1e0cca
-1671125652761	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
-1671125666699	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
-Marionette threw an error: TypeError: this.curBrowser.contentBrowser is null
-GeckoDriver.prototype.navigateTo@chrome://remote/content/marionette/driver.js:825:3
-
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
-console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
-1671125706916	Marionette	INFO	Stopped listening on port 40581
-1671125745405	geckodriver	INFO	Listening on 127.0.0.1:36163
-1671125745949	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44889" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilefYaTEe"
-1671125746720	Marionette	INFO	Marionette enabled
-1671125746725	Marionette	INFO	Listening on port 39953
-WebDriver BiDi listening on ws://localhost:44889
-Read port: 39953
-JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 691: Error: File resource://builtin-themes/resource://builtin-themes/dark/ does not contain a valid manifest
-1671125746950	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefYaTEe/search.json.mozlz4", (void 0)))
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
-DevTools listening on ws://localhost:44889/devtools/browser/1f3afec5-6a78-41ee-9bc3-ef2d5b8b5fd6
-1671125765643	Marionette	INFO	Stopped listening on port 39953
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
-console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
-1671126176154	geckodriver	INFO	Listening on 127.0.0.1:37153
-1671126176698	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58167" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileDLedDZ"
-1671126177480	Marionette	INFO	Marionette enabled
-1671126177484	Marionette	INFO	Listening on port 45209
-WebDriver BiDi listening on ws://localhost:58167
-Read port: 45209
-JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 691: Error: File resource://builtin-themes/resource://builtin-themes/dark/ does not contain a valid manifest
-1671126177709	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileDLedDZ/search.json.mozlz4", (void 0)))
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
-DevTools listening on ws://localhost:58167/devtools/browser/248eda0a-d1e9-4625-9c8b-6dd28c8da35a
-1671126194812	Marionette	INFO	Stopped listening on port 45209
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
-console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
-1671126457066	geckodriver	INFO	Listening on 127.0.0.1:54609
-1671126457607	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "40907" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilecWSBiu"
+1671129387206	geckodriver	INFO	Listening on 127.0.0.1:36271
+1671129387750	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "60617" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileaBEXjt"
 *** You are running in headless mode.
-1671126458059	Marionette	INFO	Marionette enabled
-1671126458066	Marionette	INFO	Listening on port 38109
-WebDriver BiDi listening on ws://localhost:40907
-Read port: 38109
+1671129388139	Marionette	INFO	Marionette enabled
+1671129388145	Marionette	INFO	Listening on port 40047
+WebDriver BiDi listening on ws://localhost:60617
+Read port: 40047
 JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 691: Error: File resource://builtin-themes/resource://builtin-themes/dark/ does not contain a valid manifest
-1671126458288	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1671129388346	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilecWSBiu/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileaBEXjt/search.json.mozlz4", (void 0)))
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
-DevTools listening on ws://localhost:40907/devtools/browser/98d3e240-b1e0-4a4e-af90-e782152b486a
-1671126472703	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
-1671126485099	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
-Exiting due to channel error.
-Exiting due to channel error.
-Exiting due to channel error.
-1671126527235	geckodriver	INFO	Listening on 127.0.0.1:56715
-1671126527772	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "59677" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileNyk77W"
-1671126528624	Marionette	INFO	Marionette enabled
-1671126528629	Marionette	INFO	Listening on port 43541
-WebDriver BiDi listening on ws://localhost:59677
-Read port: 43541
-JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 691: Error: File resource://builtin-themes/resource://builtin-themes/dark/ does not contain a valid manifest
-1671126528895	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileNyk77W/search.json.mozlz4", (void 0)))
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
-Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
-DevTools listening on ws://localhost:59677/devtools/browser/8a52dfd3-3548-4234-b4bf-bf14681e17fa
-1671126540438	Marionette	INFO	Stopped listening on port 43541
+DevTools listening on ws://localhost:60617/devtools/browser/20334896-bf18-4448-ab9b-c9b628731f35
+1671129395052	Marionette	INFO	Stopped listening on port 40047
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
 console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
 JavaScript error: resource://gre/modules/ClientID.jsm, line 364: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.setStringPref]
-<<<<<<< HEAD
-1671126627577	geckodriver	INFO	Listening on 127.0.0.1:32925
-1671126627615	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54587" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileL2zUrp"
-1671126628428	Marionette	INFO	Marionette enabled
-1671126628433	Marionette	INFO	Listening on port 39863
-WebDriver BiDi listening on ws://localhost:54587
-Read port: 39863
+1671129403772	geckodriver	INFO	Listening on 127.0.0.1:48227
+1671129404312	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39377" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileGlzqAe"
+1671129405048	Marionette	INFO	Marionette enabled
+1671129405053	Marionette	INFO	Listening on port 43399
+WebDriver BiDi listening on ws://localhost:39377
+Read port: 43399
 JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 691: Error: File resource://builtin-themes/resource://builtin-themes/dark/ does not contain a valid manifest
-1671126628767	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileL2zUrp/search.json.mozlz4", (void 0)))
+1671129405269	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGlzqAe/search.json.mozlz4", (void 0)))
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
-DevTools listening on ws://localhost:54587/devtools/browser/1500395d-76b4-4bf0-9bf2-8f12d8b8ea1b
-1671126640589	Marionette	INFO	Stopped listening on port 39863
+DevTools listening on ws://localhost:39377/devtools/browser/9bc6893a-b7f1-4592-bb9e-805f9f1e5dcb
+1671129419534	Marionette	INFO	Stopped listening on port 43399
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
 console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
-JavaScript error: resource://gre/modules/ClientID.jsm, line 364: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.setStringPref]
-=======
-1671126742574	geckodriver	INFO	Listening on 127.0.0.1:59896
-1671126769740	geckodriver	INFO	Listening on 127.0.0.1:60032
-1671126839777	geckodriver	INFO	Listening on 127.0.0.1:60350
-1671126856183	geckodriver	INFO	Listening on 127.0.0.1:60436
->>>>>>> 59f3fe2ce6327a5a22acc9aad8884d180f973d88
+1671129429238	geckodriver	INFO	Listening on 127.0.0.1:45209
+1671129429774	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "52285" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile3HzipR"
+1671129430534	Marionette	INFO	Marionette enabled
+1671129430540	Marionette	INFO	Listening on port 37289
+WebDriver BiDi listening on ws://localhost:52285
+Read port: 37289
+JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 691: Error: File resource://builtin-themes/resource://builtin-themes/dark/ does not contain a valid manifest
+1671129430765	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3HzipR/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:52285/devtools/browser/93107af4-d490-4bcf-bbb2-c4ed2bf71629
+1671129448202	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1671129461413	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1671129660735	Marionette	INFO	Stopped listening on port 37289
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofile3HzipR/protections.sqlite
+1671129783400	geckodriver	INFO	Listening on 127.0.0.1:42945
+1671129783941	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56217" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileCX7GgG"
+1671129784656	Marionette	INFO	Marionette enabled
+1671129784662	Marionette	INFO	Listening on port 45433
+WebDriver BiDi listening on ws://localhost:56217
+Read port: 45433
+JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 691: Error: File resource://builtin-themes/resource://builtin-themes/dark/ does not contain a valid manifest
+1671129784883	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileCX7GgG/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:56217/devtools/browser/45a9c2f3-8b9d-47bd-8317-b0a10915483d
+1671129796541	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1671129840010	Marionette	INFO	Stopped listening on port 45433
+1671129840304	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+[2022-12-15T18:44:00Z ERROR glean] Can't persist ping lifetime data: Error { kind: Rkv(IoError(Os { code: 2, kind: NotFound, message: "No such file or directory" })) }
+1671129843777	geckodriver	INFO	Listening on 127.0.0.1:56525
+1671129844320	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44545" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilec1FXZw"
+1671129845046	Marionette	INFO	Marionette enabled
+1671129845052	Marionette	INFO	Listening on port 38951
+WebDriver BiDi listening on ws://localhost:44545
+Read port: 38951
+JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 691: Error: File resource://builtin-themes/resource://builtin-themes/dark/ does not contain a valid manifest
+1671129845255	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilec1FXZw/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:44545/devtools/browser/90b2d90a-247e-41e3-951b-efa0735c8079
+1671129859143	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1671129890839	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1671130050975	Marionette	INFO	Stopped listening on port 38951
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1671130165384	geckodriver	INFO	Listening on 127.0.0.1:60133
+1671130165922	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "59407" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileNTvepx"
+1671130166631	Marionette	INFO	Marionette enabled
+1671130166636	Marionette	INFO	Listening on port 46815
+WebDriver BiDi listening on ws://localhost:59407
+Read port: 46815
+JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 691: Error: File resource://builtin-themes/resource://builtin-themes/dark/ does not contain a valid manifest
+1671130166873	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileNTvepx/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:59407/devtools/browser/67ff5db9-cae9-4db2-a410-fed145a61cbb
+1671130181508	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1671130184758	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1671130194647	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1671130611037	geckodriver	INFO	Listening on 127.0.0.1:50857
+1671130611579	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "45797" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilesh1NnT"
+1671130612322	Marionette	INFO	Marionette enabled
+1671130612327	Marionette	INFO	Listening on port 44419
+WebDriver BiDi listening on ws://localhost:45797
+Read port: 44419
+JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 691: Error: File resource://builtin-themes/resource://builtin-themes/dark/ does not contain a valid manifest
+1671130612530	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilesh1NnT/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:45797/devtools/browser/75d0ef4d-d1bd-445b-88af-6670b0b619be
+1671130626688	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1671130631169	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1671130679559	Marionette	INFO	Stopped listening on port 46815
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1671130739418	Marionette	INFO	Stopped listening on port 44419
+1671130757435	geckodriver	INFO	Listening on 127.0.0.1:50693
+1671130757977	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "45209" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileaTg0zK"
+1671130758710	Marionette	INFO	Marionette enabled
+1671130758715	Marionette	INFO	Listening on port 46229
+WebDriver BiDi listening on ws://localhost:45209
+Read port: 46229
+JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 691: Error: File resource://builtin-themes/resource://builtin-themes/dark/ does not contain a valid manifest
+1671130758926	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileaTg0zK/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:45209/devtools/browser/4f74ee85-7ffb-4ae2-b201-839bcc20ebb6
+1671130772873	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1671130993255	geckodriver	INFO	Listening on 127.0.0.1:56277
+1671130993333	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "55107" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileMFyrPF"
+1671130994082	Marionette	INFO	Marionette enabled
+1671130994087	Marionette	INFO	Listening on port 44335
+WebDriver BiDi listening on ws://localhost:55107
+Read port: 44335
+JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 691: Error: File resource://builtin-themes/resource://builtin-themes/dark/ does not contain a valid manifest
+1671130994308	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileMFyrPF/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:55107/devtools/browser/ce28482e-0bbf-4fec-afa2-d3b2c422e76f
+1671131023795	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1671131105619	Marionette	INFO	Stopped listening on port 44335
+1671131121141	geckodriver	INFO	Listening on 127.0.0.1:46635
+1671131121681	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "43539" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile6zzrgy"
+1671131122402	Marionette	INFO	Marionette enabled
+1671131122406	Marionette	INFO	Listening on port 38839
+WebDriver BiDi listening on ws://localhost:43539
+Read port: 38839
+JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 691: Error: File resource://builtin-themes/resource://builtin-themes/dark/ does not contain a valid manifest
+1671131122602	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile6zzrgy/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:43539/devtools/browser/af8e9c74-0de7-43cf-8c56-0f3364a3ae45
+1671131138563	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1671131142851	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1671131153385	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1671131188144	Marionette	INFO	Stopped listening on port 38839
+1671131243869	geckodriver	INFO	Listening on 127.0.0.1:59173
+1671131244415	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "49129" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileEQOX2M"
+1671131245150	Marionette	INFO	Marionette enabled
+1671131245155	Marionette	INFO	Listening on port 33975
+WebDriver BiDi listening on ws://localhost:49129
+Read port: 33975
+JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 691: Error: File resource://builtin-themes/resource://builtin-themes/dark/ does not contain a valid manifest
+1671131245347	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEQOX2M/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:49129/devtools/browser/dd5deded-ba94-4e25-9e2c-a83dd701c6b9
+1671131273973	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1671131342822	Marionette	INFO	Stopped listening on port 33975
+1671131393680	geckodriver	INFO	Listening on 127.0.0.1:46695
+1671131394222	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "53351" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileT2dTLS"
+1671131395020	Marionette	INFO	Marionette enabled
+1671131395025	Marionette	INFO	Listening on port 39785
+WebDriver BiDi listening on ws://localhost:53351
+Read port: 39785
+JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 691: Error: File resource://builtin-themes/resource://builtin-themes/dark/ does not contain a valid manifest
+1671131395215	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileT2dTLS/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:53351/devtools/browser/e3996f57-3406-4848-b551-4542ef068317
+1671131412641	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1671131419599	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1671131443769	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1671131536998	Marionette	INFO	Stopped listening on port 39785
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofileT2dTLS/protections.sqlite

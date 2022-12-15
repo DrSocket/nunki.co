@@ -87,6 +87,14 @@ Run in terminal to create a python virtual env and install the modules used.
 
 ```source script.sh```
 
+
+### Ex 1
+
+I need a token to access the api of fakejson.com which can be used to identify me, so I used a temp-mail.org email to get a token.
+
+email: webef19956@nazyno.com
+pw: VeryEasy2@
+
 We're also going to use Tor so with macos we can install with brew
 
 ```brew install tor```
@@ -122,6 +130,6 @@ CookieAuthentication 1
 \#\#\# This section is just for location-hidden services \#\#\#
 
 
-Chrome drivers for selenium 
+### Second test
 
-https://chromedriver.chromium.org/downloads
+Everything should work if you have Firefox installed in your setup.
