@@ -28,55 +28,61 @@ def get_selenium():
 
 	return (driver)
 
-def main():
-	keyword = ""
-	date = 365
-	language = "English"
-	limit = 10
-	if (len(sys.argv) > 1):
-		keyword = sys.argv[1]
-	if (len(sys.argv) > 2):
-		date = sys.argv[2]
-	if (len(sys.argv) > 3):
-		language = sys.argv[3]
-	if (len(sys.argv) > 4):
-		limit = sys.argv[4]
+class BoardReader:
+	def __init__(self, keyword=None, date=None, language=None, limit=None):
+		self.keyword = keyword or ""
+		self.date = date or 365
+		self.language = language or "English"
+		self.limit = limit or 10
 
-	keywords = keyword.split(" ")
-	
-	base = "https://boardreader.com/s/"
-	if (len(keywords) > 1):
-		for i, e in enumerate(keywords):
-			base += f"{e}"
-			if i < len(keywords) - 1:
-				base += "%2520"
-		base += ".html;"
-	else:
-		base += f"{keyword}.html;"
-	if int(limit) != 10:
-		base += f"limit={limit};"
-	base += f"period={date};"
-	base += f"language={language};"
-	response = requests.get(base)
-	if response.ok and response is not None:
-		try:
-			driver = get_selenium()
-			driver.get(base)
-			print (f"Title: {driver.title}\n")
-			elements = driver.find_elements(By.TAG_NAME, "li")
-			for i, e in enumerate(elements):
-				print (f"*********Article {i + 1}*********")
-				print (e.text)
-				print ("\n\n")
-			driver.quit()
-		except Exception as e:
-			print(e)
-	else:
-		print("Error: ", response.status_code)
+	# Create url
+	def create_url(self):
+		base = "https://boardreader.com/s/"
+		if (len(self.keyword) > 1):
+			for i, e in enumerate(self.keyword):
+				base += f"{e}"
+				if i < len(self.keyword) - 1:
+					base += "%2520"
+			base += ".html;"
+		else:
+			base += f"{self.keyword}.html;"
+		if int(self.limit) != 10:
+			base += f"limit={self.limit};"
+		base += f"period={self.date};"
+		base += f"language={self.language};"
+		return (base)
+
+	# Print response
+	def get_response(self):
+		response = requests.get(self.create_url())
+		if response.ok and response is not None:
+			try:
+				driver = get_selenium()
+				driver.get(self.create_url())
+				print (f"Title: {driver.title}\n")
+				elements = driver.find_elements(By.TAG_NAME, "li")
+				for i, e in enumerate(elements):
+					print (f"*********Article {i + 1}*********")
+					print (e.text)
+					print ("\n\n")
+				driver.quit()
+			except Exception as e:
+				print(e)
+		else:
+			print("Error: ", response.status_code)
 
 if __name__ == "__main__":
 	if (len(sys.argv) > 1):
-		seen = main()
+		bReader = BoardReader()
+		if (len(sys.argv) > 1):
+			bReader.keyword = sys.argv[1].split(" ")
+		if (len(sys.argv) > 2):
+			bReader.date = sys.argv[2]
+		if (len(sys.argv) > 3):
+			bReader.language = sys.argv[3]
+		if (len(sys.argv) > 4):
+			bReader.limit = sys.argv[4]
+		bReader.get_response()
 	else:
 		print("No arguments provided")
 		print("Usage: python3 fe_reverse.py <keywords (If more than 1 please add quotes)> optional: <period: (default: 365)> <language (default: English) <limit>")
