@@ -19,6 +19,8 @@ def get_selenium():
 	# options.page_load_strategy = 'normal'
 	options.add_argument("--headless")
 	options.add_argument("--blink-settings=imagesEnabled=false")
+	options.add_argument("--no-sandbox")
+	# options.add_argument("--disable-dev-shm-usage")
 
 	## Firefox driver comment/uncomment
 	# driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()), options=options)
