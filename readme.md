@@ -93,6 +93,7 @@ Run in terminal to create a python virtual env and install the modules used.
 I need a token to access the api of fakejson.com which can be used to identify me, so I used a temp-mail.org email to get a token.
 
 email: webef19956@nazyno.com
+
 pw: <in env file>
 
 We're also going to use Tor so with macos we can install with brew
@@ -107,7 +108,7 @@ In tor configuration I'm going to hash a new password so that random access to t
 
 ```tor --hash-password <enter your password here>```
 
-pw: VeryEasy2@
+pw: <in env file>
 
 Now we have to update the torrc file 
 With brew installation you will find a sample Tor configuration file at /usr/local/etc/tor/torrc.sample. Remove the .sample extension to make it effective.
