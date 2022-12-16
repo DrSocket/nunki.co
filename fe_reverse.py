@@ -4,7 +4,7 @@ import sys
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-# with Firefox() as driver comment/uncomment
+## with Firefox() as driver comment/uncomment
 # from selenium.webdriver.firefox.service import Service
 # from selenium.webdriver.firefox.options import Options
 # from webdriver_manager.firefox import GeckoDriverManager
@@ -20,7 +20,7 @@ def get_selenium():
 	options.add_argument("--headless")
 	options.add_argument("--blink-settings=imagesEnabled=false")
 	
-	# Firefox driver comment/uncomment
+	## Firefox driver comment/uncomment
 	# driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()), options=options)
 
 	# Chrome driver comment/uncomment
@@ -45,7 +45,7 @@ class BoardReader:
 					base += "%2520"
 			base += ".html;"
 		else:
-			base += f"{self.keyword}.html;"
+			base += f"{self.keyword[0]}.html;"
 		if int(self.limit) != 10:
 			base += f"limit={self.limit};"
 		base += f"period={self.date};"
