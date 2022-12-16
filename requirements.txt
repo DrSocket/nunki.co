@@ -1,0 +1,6 @@
+requests
+torrequest
+requests-html
+webdriver-manager
+selenium
+python-dotenv
