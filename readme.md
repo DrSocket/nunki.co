@@ -93,7 +93,7 @@ Run in terminal to create a python virtual env and install the modules used.
 I need a token to access the api of fakejson.com which can be used to identify me, so I used a temp-mail.org email to get a token.
 
 email: webef19956@nazyno.com
-pw: VeryEasy2@
+pw: <in env file>
 
 We're also going to use Tor so with macos we can install with brew
 

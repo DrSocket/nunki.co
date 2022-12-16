@@ -1,9 +1,13 @@
 import requests
 from torrequest import TorRequest
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 def requestTor(port):
 	payload = {
-		"token": "3bVHhe0Mx_QkDrflUHFPgA",
+		"token": os.environ.get("TOKEN"),
 		"data": {
 		"name": "nameFirst",
 		"email": "internetEmail",
@@ -13,7 +17,7 @@ def requestTor(port):
 	}
 
 	# Create a TorRequest instance
-	tr = TorRequest(proxy_port=port, password='VeryEasy2@')
+	tr = TorRequest(proxy_port=port, password=os.environ.get("PW"))
 
 	# Set the URL of the mocked API on fakejson
 	url = 'https://app.fakejson.com/q'
