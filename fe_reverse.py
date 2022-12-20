@@ -73,6 +73,18 @@ class BoardReader:
 			print("Error: ", response.status_code)
 			return (None)
 
+	def readable(self, str):
+		res = str.replace('[Keyword]', '')
+		res = res.replace('[/Keyword]', '')
+		res = res.replace('&quot', '"')
+		res = res.replace('&amp', '&')
+		res = res.replace('&lt', '<')
+		res = res.replace('&gt', '>')
+		res = res.replace('&nbsp', ' ')
+		res = res.replace('&apos', "'")
+		res = res.replace('&#039;s', "'s")
+		return (res)
+
 	# Print response
 	def get_response(self):
 		response = requests.get(self.create_url())
@@ -82,7 +94,11 @@ class BoardReader:
 				r = r['SearchResults']
 				for i, e in enumerate(r):
 					print(f"Article {i + 1}")
-					print(f"{e['Text']}\n")
+					# print (r)
+					# print (type(e['Subject']))
+					print (f"Subject: {self.readable(e['Subject'])}")
+					print (f"Thread Title: {self.readable(e['ThreadTitle'])}")
+					print (f"{self.readable(e['Text'])}")
 			except Exception as e:
 				print(e)
 		else:
