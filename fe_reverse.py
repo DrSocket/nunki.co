@@ -94,7 +94,7 @@ class BoardReader:
 				r = r['SearchResults']
 				for i, e in enumerate(r):
 					print(f"Article {i + 1}")
-					# print (r)
+					print (r)
 					# print (type(e['Subject']))
 					print (f"Subject: {self.readable(e['Subject'])}")
 					print (f"Thread Title: {self.readable(e['ThreadTitle'])}")
