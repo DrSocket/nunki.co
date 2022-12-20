@@ -14,6 +14,11 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 
+
+from bs4 import BeautifulSoup
+import re
+import json
+
 def get_selenium():
 	options = Options()
 	# options.page_load_strategy = 'normal'
@@ -39,35 +44,45 @@ class BoardReader:
 
 	# Create url
 	def create_url(self):
-		base = "https://boardreader.com/s/"
-		if (len(self.keyword) > 1):
-			for i, e in enumerate(self.keyword):
-				base += f"{e}"
-				if i < len(self.keyword) - 1:
-					base += "%2520"
-			base += ".html;"
-		else:
-			base += f"{self.keyword[0]}.html;"
+		base = "https://boardreader.com/return.php?query="
+		for i, e in enumerate(self.keyword):
+			base += e
+			if i < len(self.keyword) - 1:
+				base += "%20"
 		if int(self.limit) != 10:
-			base += f"limit={self.limit};"
-		base += f"period={self.date};"
-		base += f"language={self.language};"
+			base += f"&limit={self.limit};"
+		if int(self.date) != 365:
+			base += f"&period={self.date};"
+		if self.language != "English":
+			base += f"&language={self.language};"
+		base += f"&session_id={self.get_session_id()}"
 		return (base)
+
+	def get_session_id(self):
+		response = requests.get("https://boardreader.com/")
+		if response.ok and response is not None:
+			# pattern = re.compile(r'\.setItem\("([^@]+@[^@]+\.[^@]+)"\);', re.MULTILINE | re.DOTALL)
+			soup = BeautifulSoup(response.text, "html.parser")
+			script_tag = soup.findAll("script")
+			for e in script_tag[8]:
+				index = e.find("localStorage.setItem('currentSessionId'")
+				if index > 0:
+					id = e[index + 42:index + 97]
+					return (id)
+		else:
+			print("Error: ", response.status_code)
+			return (None)
 
 	# Print response
 	def get_response(self):
 		response = requests.get(self.create_url())
 		if response.ok and response is not None:
 			try:
-				driver = get_selenium()
-				driver.get(self.create_url())
-				print (f"Title: {driver.title}\n")
-				elements = driver.find_elements(By.TAG_NAME, "li")
-				for i, e in enumerate(elements):
-					print (f"*********Article {i + 1}*********")
-					print (e.text)
-					print ("\n\n")
-				driver.quit()
+				r = response.json()
+				r = r['SearchResults']
+				for i, e in enumerate(r):
+					print(f"Article {i + 1}")
+					print(f"{e['Text']}\n")
 			except Exception as e:
 				print(e)
 		else:
